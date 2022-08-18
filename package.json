@@ -1,0 +1,27 @@
+{
+  "name": "pay-assessment",
+  "version": "1.0.0",
+  "description": "input: https://www.markdownguide.org/cheat-sheet/\r output: https://www.short.com/aksuudgaskj",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devstart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmpereira/pay-assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmpereira/pay-assessment/issues"
+  },
+  "homepage": "https://github.com/nmpereira/pay-assessment#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "short-hash": "^1.0.0"
+  }
+}
